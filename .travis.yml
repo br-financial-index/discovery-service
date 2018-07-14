@@ -2,7 +2,7 @@ language: java
 jdk:
   - oraclejdk8
 
-script: mvn clean build
+script: mvn clean compile
 
 after_success:
   - mvn -Dspring.profiles.ative=test test jacoco:report coveralls:report
