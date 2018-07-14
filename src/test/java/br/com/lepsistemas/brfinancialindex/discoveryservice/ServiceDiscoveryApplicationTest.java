@@ -18,12 +18,12 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @ActiveProfiles("test")
 public class ServiceDiscoveryApplicationTest {
-	
+
 	@LocalServerPort
-    private int port;
-	
+	private int port;
+
 	@Autowired
-    private TestRestTemplate restTemplate;
+	private TestRestTemplate restTemplate;
 
 	@Test
 	public void should_start_eureka_server() {
