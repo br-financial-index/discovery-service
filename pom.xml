@@ -67,6 +67,10 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+	
+	<pluginGroups>
+		<pluginGroup>org.eluder.coveralls</pluginGroup>
+	</pluginGroups>
 
 	<build>
 		<plugins>
