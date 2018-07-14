@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/br-financial-index/discovery-service.svg?branch=master](https://travis-ci.org/br-financial-index/discovery-service)
+[![Build Status](https://travis-ci.org/br-financial-index/discovery-service.svg?branch=master)](https://travis-ci.org/br-financial-index/discovery-service) [![Coverage Status](https://coveralls.io/repos/github/br-financial-index/discovery-service/badge.svg?branch=master)](https://coveralls.io/github/br-financial-index/discovery-service?branch=master)
 
-
-Spring Boot JWT Project
+BR Financial Index Discovery Service
